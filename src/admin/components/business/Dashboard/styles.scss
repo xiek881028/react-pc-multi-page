@@ -1,0 +1,24 @@
+.dashboard-wrap {
+  .header {
+    background: #fff;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .content {
+    margin: 20px 16px;
+    background: #fff;
+    min-height: 280px;
+    position: relative;
+  }
+  .logo {
+    background: url('~@admin/images/logo_dx.png') center center no-repeat;
+    background-size: contain;
+    height: 50px;
+    margin: 16px 12px;
+  }
+  .fullHeight{
+    min-height: 100vh;
+    position: relative;
+  }
+}
